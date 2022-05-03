@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604738009038",
+    "project_id": "app-dicas-uteis",
+    "storage_bucket": "app-dicas-uteis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604738009038:android:4648896c4d3b2475d11d9f",
+        "android_client_info": {
+          "package_name": "com.app.dicas.uteis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604738009038-c0s4n6sat24m3uilcljho2k3h4pnm0c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4CWpEAwILrsG2wj8F1dg5M-m4ZNVBbUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604738009038-c0s4n6sat24m3uilcljho2k3h4pnm0c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

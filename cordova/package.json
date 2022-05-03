@@ -1,0 +1,65 @@
+{
+  "name": "io.framework7.agendesalao",
+  "displayName": "Dicas Úteis",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-electron": "^1.1.1",
+    "cordova-ios": "^6.1.1",
+    "cordova-osx": "^6.0.0",
+    "cordova-plugin-keyboard": "^1.2.0",
+    "cordova-plugin-splashscreen": "^6.0.0",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-keyboard": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-admob-free": {
+        "ADMOB_APP_ID": "ca-app-pub-9651252618998586~6591295051"
+      },
+      "onesignal-cordova-plugin": {},
+      "cordova-plugin-buildinfo": {},
+      "cordova-universal-links-plugin": {},
+      "cordova-plugin-browsertab": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "com.firebase.cordova",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
+      }
+    },
+    "platforms": [
+      "ios",
+      "electron",
+      "osx",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-admob-sdk": "^0.24.1",
+    "cordova-android": "^8.1.0",
+    "cordova-plugin-admob-free": "0.27.0",
+    "cordova-plugin-browsertab": "0.2.0",
+    "cordova-plugin-buildinfo": "4.0.0",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-customurlscheme": "^5.0.2",
+    "cordova-plugin-inappbrowser": "4.1.0",
+    "cordova-promise-polyfill": "0.0.2",
+    "cordova-universal-links-plugin-fix": "1.2.1",
+    "onesignal-cordova-plugin": "^2.11.3"
+  }
+}

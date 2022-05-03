@@ -1,0 +1,28 @@
+
+
+@include fontFace('Font Light','../fonts/Poppins-Light.ttf');
+@include fontFace('Font Regular','../fonts/Poppins-Regular.ttf');
+@include fontFace('Font Bold','../fonts/Poppins-Bold.ttf');
+@include fontFace('Font Semibold','../fonts/Poppins-SemiBold.ttf');
+@include fontFace('Font Medium','../fonts/Poppins-Medium.ttf');
+
+
+.font-light {
+	font-family: 'Font Light';
+}
+
+.font-regular {
+	font-family: 'Font Regular';
+}
+
+.font-medium {
+	font-family: 'Font Medium';
+}
+
+.font-bold {
+	font-family: 'Font Bold';
+}
+
+.font-semibold {
+	font-family: 'Font Semibold';
+}
